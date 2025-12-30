@@ -79,7 +79,7 @@ export function PasswordGenerator() {
           title: "复制成功",
           description: "密码已复制到剪贴板",
         });
-      } catch (err) {
+      } catch {
         toast({
           title: "复制失败",
           description: "无法复制到剪贴板，请手动复制",
